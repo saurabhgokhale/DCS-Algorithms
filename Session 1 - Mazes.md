@@ -76,10 +76,30 @@ A good maze is probably the one with more connections. We should be able to get 
 
 <img width="800" alt="image" src="https://github.com/user-attachments/assets/d1ff9e1f-c3e5-415a-b9d0-a6b0cbabd441">
 
-> To be more specific, a good maze is when you have ONE option to move from one place to another. Not ZERO, and Not MANY. Therefore having a loop in a maze is not fun.
+> To be more specific, a good maze is when you have ONE option to move from one place to another. Not ZERO, and Not MANY. Therefore having a loop in a maze is not fun because they give us multiple ways to get from A to B.
 
 <img width="500" alt="image" src="https://github.com/user-attachments/assets/9cdec374-69f8-44e0-a809-350189334690">
 
+> Another one is a place in the maze where you can not reach. (Isolated area)
 
+`What does it mean to generate a perfect maze`
+> That would mean connecting all the dots such that there is one path from one dot to any other dot. In Computer Science terms, we call that a `Tree` 
+
+Start at any point and randomly start connecting edges. Initially, it will work great, but you are going to see a couple of problems ... can you guess?
+
+[![Maze Generation](https://img.youtube.com/vi/uctN47p_KVk/0.jpg)](https://youtu.be/uctN47p_KVk?t=366 "Maze Generation")
+
+# Maze Generation Algorithms
+
+## Depth First Search (DFS)
+- If you are stuck, just go back in time and start from the node that has other unvisited nodes.
+
+[![Depth First Search (DFS)](https://img.youtube.com/vi/uctN47p_KVk/0.jpg)](https://youtu.be/uctN47p_KVk?t=367 "DFS")
+
+
+## Hunt and Kill (HAK)
+- Start from the top and find a node that has other unvisited nodes instead of going back in time. 
+ 
+[![Hunt and Kill (HAK)](https://img.youtube.com/vi/uctN47p_KVk/0.jpg)](https://youtu.be/uctN47p_KVk?t=367 "HAK")
 
 </span>
