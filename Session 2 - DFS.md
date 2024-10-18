@@ -7,9 +7,9 @@
 # Session 2 Depth First Search and A* Algorithms
 
 ## Depth First Search 
-
+```
 Depth-first search starts from a node (source) and tries to reach as deep as possible. If there is no path and all the nodes are visited, it returns to the earlier node to see if there are any other nodes that it can visit.
-
+```
 Let's see in action
 
 https://www.hackerearth.com/practice/algorithms/graphs/depth-first-search/visualize/
@@ -24,8 +24,11 @@ https://visualgo.net/en/dfsbfs
 
 
 ## A* Algorithm
-> A* algorithm uses Heuristics calculations to find the shortest path to the destination.
 
+```
+A* algorithm uses Heuristics calculations to find the shortest path to the destination.
+This is what today's maps use to find the shortest path
+```
 
 ![image](https://github.com/user-attachments/assets/4d4acdb9-74d2-4daf-b09e-ed35ccf1914a)
 
@@ -35,11 +38,30 @@ https://visualgo.net/en/dfsbfs
 
 ![image](https://github.com/user-attachments/assets/51e8cfc9-8c98-4dd5-9a27-0da11937ffee)
 
-> The algorithm selects nodes with the lowest F cost. But if the 2 nodes have the same F cost, the algorithm selects the one with the lowest H cost.
+```
+The algorithm selects nodes with the lowest F cost. But if the 2 nodes have the same F cost, the algorithm selects the one with the lowest H cost.
 
 Let's watch the actual path finding based on the Heuristic calculations
+```
 
-https://youtu.be/-L-WgKMFuhE?t=75
+[![Algorithm](https://img.youtube.com/vi/-L-WgKMFuhE/0.jpg)](https://youtu.be/-L-WgKMFuhE?t=75 "A* Algorithm")
+
+
+```
+A* in action on a real-world graph
+```
+
+![](https://github.com/user-attachments/assets/7e2ad18d-6e4d-4c34-82a2-d076e25dbcb0)
+
+```
+Who can stall the A* Algorithm from reaching its target wins :)
+(Time Taken and Number of Operations)
+
+Only 1 Rule:
+1. There should be a path to reach the target
+
+```
+/Users/saurabh/Documents/saurabh/DCS/PathFinding.js-master/visual/index.html
 
 
 

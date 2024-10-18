@@ -99,5 +99,6 @@ These steps repeat over and over again until the most relevant information is ad
 
 ## Golden Record Voyager
 
-Lets talk next time.
+Let's talk next time.
+https://www.youtube.com/watch?v=HWXHIfou3pw
 </span>
