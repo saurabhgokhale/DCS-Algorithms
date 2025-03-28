@@ -45,6 +45,7 @@ However, once you have a prediction modal like this, we can feed the same predic
 
 ![](https://github.com/user-attachments/assets/085b7e56-3d24-4ea2-9bd0-1eda3c78c9e3)
 
+## Embedding
 ```
 The initial text is broken down in to smaller chunks called Tokens
 ```
